@@ -1,0 +1,55 @@
+.general_header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  .date-time-header {
+    float: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    line-height: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #6e6e6e;
+    margin-bottom: 30px;
+
+    .header-date {
+      display: flex;
+    }
+
+    .header-time {
+      display: flex;
+      margin-top: -8px;
+    }
+  }
+
+  .header-bottom {
+    clear: both;
+    padding-left: 20px;
+    line-height: 0;
+
+    h1 {
+      font-size: 2.5rem;
+      font-family: "Anton", sans-serif;
+      font-weight: 400;
+      color: #000000;
+      /* line-height: 0; */
+      letter-spacing: 0.1rem;
+      padding: 10px;
+
+      span{
+        color: #07a888; 
+      }
+      
+    }
+
+    .device-details{
+        padding-left: 13px;
+        font-weight: bold;
+        color: #6e6e6e;
+    }
+
+  }
+}

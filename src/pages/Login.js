@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/css/login.css";
+import "../css/login.css";
 
 function Login() {
   return (
@@ -41,7 +41,7 @@ function Login() {
               </label>
             </div>
             <div className="reset-password">
-               <p>Reset Password</p>
+               <p> Reset Password</p>
             </div>
           </div>
 
