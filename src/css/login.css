@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .box-container {
+    padding: 50px 30px 50px 30px;
+    /* border: 1px solid #000000; */
+    box-shadow: 0px 2px 10.5px #2c2c2c24;
+    height: 466px;
+    width: 490px;
+
+    .header-title {
+      line-height: 0.5rem;
+
+      h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+
+        span {
+          margin-left: 10px;
+          color: #07a888;
+        }
+      }
+
+      p {
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+
+    .input-fields-wrapper {
+      margin: 40px 0 0px 0;
+      padding: 1px 50px;
+
+      .input-box-wrapper {
+        margin: 20px 5px;
+
+        .input-label {
+          margin: 0 0 5px 0;
+          color: #8D8D8D;
+          font-weight: 600;
+        }
+
+        .input-field {
+          width: 99%;
+          font-size: 1rem;
+          padding: 15px;
+          border: none;
+          border-radius: 6px;
+          box-shadow: 0px 2px 10.5px #2c2c2c24;
+        }
+      }
+    }
+
+    .input-fields-under {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 50px;
+
+      /* .remeber-me-checkbox {
+        cursor: pointer;
+        margin-right: 8px; 
+        border-radius: 50%;
+      } */
+
+      .remeber-me{
+
+          .remeber-me-checkbox {
+            width: 1.3em;
+            height: 1.3em;
+            background-color: white;
+            border-radius: 50%;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+            appearance: none;
+            -webkit-appearance: none;
+            outline: none;
+            cursor: pointer;
+          }
+    
+          .remeber-me-checkbox:checked {
+            background-color: green;
+        }
+
+        .login-checkbox-label{
+            margin-left: 10px;
+            font-weight: 500;
+        }
+      }
+
+      .reset-password{
+        font-weight: 500;
+        color: #8D8D8D;
+      }
+
+    }
+
+    .button {
+      background-color: #07a888;
+      border-radius: 13px;
+      border: none;
+      margin-left: 54px;
+      margin-top: 30px;
+      padding: 15px 20px;
+      width: 150px;
+      font-size: 1.2rem;
+      color: white;
+    }
+  }
+}
+
+/*.login .box-container{
+    background-color: aqua;
+    height: 636px;
+    width: 613px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .login .header-title{
+    line-height: 1;
+  }
+
+  .login .header-title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+
+  }
+
+  .login .header-title span{
+    color: #07A888;
+    margin-left: 10px;
+  } */
